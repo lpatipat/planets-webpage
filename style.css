@@ -135,7 +135,7 @@ body {
     justify-content: space-evenly;
     list-style: none;
     font-size: 100%;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   
   .planet-links .swiper-pagination-bullet {
@@ -302,13 +302,25 @@ body {
 
 
 @media (max-width: 440px) {
+
+    .screen{
+      height: 100vh;
+    }
+
     .slider-nav {
         margin: none;
         left: 50px;
     }
 
+    .text h1{
+      font-size: 250%;
+      top: 50vh;
+      left: 19vw;
+
+    }
+
     .planet-links{
-      font-size: 75%;
+      font-size: 60%;
       width: 90vw;
     }
 
@@ -323,19 +335,21 @@ body {
     }
 
     .fore img{
-      transform: translateX(140px);
+      transform: translateX(150px);
     }
 
-    .mid img{
-      transform: scale(1.5) translateY(-70px);
-  }
+    .earth img{
+      top: 30vh;
+      left: 20vw;
+    }
+
 
     .rockbg1{
       left: -70px;
     }
 
     .bg img {
-      width: 220vw;
+      width: 300vw;
     }
 
     .rock1 img{

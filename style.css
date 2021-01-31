@@ -134,6 +134,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-size: 100%;
   }
   
   .planet-links .swiper-pagination-bullet {
@@ -299,9 +300,45 @@ body {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
     .slider-nav {
         margin: none;
+        left: 50px;
+    }
+
+    .planet-links{
+      font-size: 60%;
+      width: 90vw;
+    }
+
+    .slide-detail{
+      top: 80px;
+    }
+
+    .slide-detail-facts{
+      width: 60%;
+      top: 355px;
+      font-size: 75%;
+    }
+
+    .fore img{
+      transform: translateX(140px);
+    }
+
+    .mid img{
+      transform: scale(1.5) translateY(-70px);
+  }
+
+    .rockbg1{
+      left: -70px;
+    }
+
+    .bg img {
+      width: 220vw;
+    }
+
+    .rock1 img{
+      transform: scale(0.6);
     }
 
 }
